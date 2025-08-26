@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/frontend/app/page.module.css [app-rsc] (css module)"],"sourcesContent":["__turbopack_context__.v({\n  \"ctas\": \"page-module__wtSYKa__ctas\",\n  \"footer\": \"page-module__wtSYKa__footer\",\n  \"logo\": \"page-module__wtSYKa__logo\",\n  \"main\": \"page-module__wtSYKa__main\",\n  \"page\": \"page-module__wtSYKa__page\",\n  \"primary\": \"page-module__wtSYKa__primary\",\n  \"secondary\": \"page-module__wtSYKa__secondary\",\n});\n"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA"}},
+    {"offset": {"line": 27, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/felip/work/testtaskquizz/frontend/app/page.tsx"],"sourcesContent":["import Image from \"next/image\";\nimport styles from \"./page.module.css\";\nimport { redirect } from \"next/navigation\";\n\nexport default function Home() {\n  redirect(\"/quizzes\");\n  return (\n    <div className={styles.page}>\n      <main className={styles.main}>\n        <h1>DevelopsToday Quiz Test</h1>\n        <p>Welcome to the DevelopsToday Quiz Test application!</p>\n      </main>\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;;AACA;AACA;AAAA;;;;AAEe,SAAS;IACtB,IAAA,6MAAQ,EAAC;IACT,qBACE,0PAAC;QAAI,WAAW,8IAAM,CAAC,IAAI;kBACzB,cAAA,0PAAC;YAAK,WAAW,8IAAM,CAAC,IAAI;;8BAC1B,0PAAC;8BAAG;;;;;;8BACJ,0PAAC;8BAAE;;;;;;;;;;;;;;;;;AAIX","debugId":null}}]
+}

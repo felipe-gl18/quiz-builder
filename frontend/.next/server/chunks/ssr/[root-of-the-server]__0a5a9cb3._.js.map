@@ -1,0 +1,8 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 3, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/app/pages/create/create.module.css [app-rsc] (css module)"],"sourcesContent":["__turbopack_context__.v({\n});\n"],"names":[],"mappings":"AAAA;AACA"}},
+    {"offset": {"line": 20, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/felip/work/testtaskquizz/frontend/app/pages/create/page.tsx"],"sourcesContent":["import styles from \"./create.module.css\";\r\n\r\nexport default function Create() {\r\n  return (\r\n    <div className={styles.container}>\r\n      <p>Create Page</p>\r\n    </div>\r\n  );\r\n}\r\n"],"names":[],"mappings":";;;;;AAAA;;;AAEe,SAAS;IACtB,qBACE,8OAAC;QAAI,WAAW,uJAAM,CAAC,SAAS;kBAC9B,cAAA,8OAAC;sBAAE;;;;;;;;;;;AAGT","debugId":null}}]
+}

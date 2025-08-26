@@ -1,0 +1,73 @@
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  font-family: "Inter", sans-serif;
+  color: #333;
+}
+
+.title {
+  font-weight: 600;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: #1e293b;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 0;
+  gap: 1.2rem;
+  list-style: none;
+}
+
+.item {
+  position: relative;
+  cursor: pointer;
+  padding: 1rem 1.5rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  background-color: #f8fafc;
+  border-radius: 12px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.deleteIcon {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.3s ease; /* animação suave */
+}
+
+.deleteIcon:hover {
+  color: red;
+  transform: 2s;
+}
+
+.item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.quizTitle {
+  font-size: 1.25rem;
+  color: #0f172a;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.quizInfo {
+  color: #64748b;
+  font-size: 0.9rem;
+}
+
+.addIcon {
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.3s ease; /* animação suave */
+}
+
+.addIcon:hover {
+  color: forestgreen;
+  transform: scale(1.2);
+}

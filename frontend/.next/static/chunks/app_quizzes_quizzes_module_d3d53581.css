@@ -1,0 +1,76 @@
+/* [project]/app/quizzes/quizzes.module.css [app-client] (css) */
+.quizzes-module__LVI3Gq__container {
+  color: #333;
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  font-family: Inter, sans-serif;
+}
+
+.quizzes-module__LVI3Gq__title {
+  text-align: center;
+  color: #1e293b;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.quizzes-module__LVI3Gq__list {
+  grid-template-columns: 1fr;
+  gap: 1.2rem;
+  padding: 0;
+  list-style: none;
+  display: grid;
+}
+
+.quizzes-module__LVI3Gq__item {
+  cursor: pointer;
+  background-color: #f8fafc;
+  border-radius: 12px;
+  padding: 1rem 1.5rem;
+  transition: transform .2s, box-shadow .2s;
+  position: relative;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, .05);
+}
+
+.quizzes-module__LVI3Gq__deleteIcon {
+  cursor: pointer;
+  transition: color .3s, transform .3s;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.quizzes-module__LVI3Gq__deleteIcon:hover {
+  color: red;
+  transform: 2s;
+}
+
+.quizzes-module__LVI3Gq__item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, .1);
+}
+
+.quizzes-module__LVI3Gq__quizTitle {
+  color: #0f172a;
+  margin-bottom: .5rem;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.quizzes-module__LVI3Gq__quizInfo {
+  color: #64748b;
+  font-size: .9rem;
+}
+
+.quizzes-module__LVI3Gq__addIcon {
+  cursor: pointer;
+  transition: color .3s, transform .3s;
+}
+
+.quizzes-module__LVI3Gq__addIcon:hover {
+  color: #228b22;
+  transform: scale(1.2);
+}
+
+/*# sourceMappingURL=app_quizzes_quizzes_module_d3d53581.css.map*/

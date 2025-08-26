@@ -1,0 +1,104 @@
+/* [project]/frontend/app/create/create.module.css [app-client] (css) */
+.create-module__HKaWla__container {
+  color: #333;
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  font-family: Inter, sans-serif;
+}
+
+.create-module__HKaWla__title {
+  text-align: center;
+  color: #1e293b;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.create-module__HKaWla__form {
+  flex-direction: column;
+  gap: 1.5rem;
+  display: flex;
+}
+
+.create-module__HKaWla__input {
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  padding: .6rem 1rem;
+  font-size: 1rem;
+}
+
+.create-module__HKaWla__input:focus {
+  border-color: #3b82f6;
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, .2);
+}
+
+.create-module__HKaWla__button {
+  color: #fff;
+  cursor: pointer;
+  background-color: #3b82f6;
+  border: none;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  padding: .6rem 1rem;
+  font-weight: 500;
+  transition: background-color .2s;
+  display: flex;
+}
+
+.create-module__HKaWla__button:hover {
+  background-color: #2563eb;
+}
+
+.create-module__HKaWla__questionCard {
+  background-color: #f8fafc;
+  border-radius: 12px;
+  flex-direction: column;
+  gap: .8rem;
+  padding: 1rem;
+  display: flex;
+  position: relative;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, .05);
+}
+
+.create-module__HKaWla__deleteIcon {
+  cursor: pointer;
+  transition: color .3s, transform .3s;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.create-module__HKaWla__deleteIcon:hover {
+  color: red;
+  transform: 2s;
+}
+
+.create-module__HKaWla__optionRow {
+  align-items: center;
+  gap: .5rem;
+  display: flex;
+}
+
+.create-module__HKaWla__addButton {
+  color: #fff;
+  cursor: pointer;
+  background-color: #10b981;
+  border: none;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  padding: .4rem .8rem;
+  transition: background .2s;
+  display: flex;
+}
+
+.create-module__HKaWla__addButton:hover {
+  background-color: #059669;
+}
+
+/*# sourceMappingURL=frontend_app_create_create_module_65a8a619.css.map*/
