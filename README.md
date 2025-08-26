@@ -3,6 +3,7 @@ DevelopsToday Quiz Test
 
 ## Setup the REST API
 cd backend
+
 npm install
 
 ### .env variable
@@ -12,5 +13,7 @@ npm run dev
 
 ## Setup the FrontEnd
 cd frontend
+
 npm install
+
 npm run dev
